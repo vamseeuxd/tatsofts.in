@@ -1,0 +1,12 @@
+<label [for]="id" class="form-label">Email address</label>
+<input
+  [type]="type"
+  [class.form-control-lg]="size == 'lg'"
+  [class.form-control-sm]="size == 'sm'"
+  [class.is-valid]="valid"
+  [class.is-invalid]="invalid"
+  class="form-control"
+  [id]="id"
+  [placeholder]="placeholder"
+  [disabled]="disabled"
+/>
